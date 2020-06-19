@@ -238,12 +238,12 @@ const startGame = () => {
 	activeResultBtn = playRowABtn
 	activeOverBtn = overRowABtn
 	// ACTIVATE COLOR PEGS
-	red.addEventListener('focus', selectPeg)
-	orange.addEventListener('focus', selectPeg)
-	yellow.addEventListener('focus', selectPeg)
-	green.addEventListener('focus', selectPeg)
-	blue.addEventListener('focus', selectPeg)
-	purple.addEventListener('focus', selectPeg)
+	red.addEventListener('click', selectPeg)
+	orange.addEventListener('click', selectPeg)
+	yellow.addEventListener('click', selectPeg)
+	green.addEventListener('click', selectPeg)
+	blue.addEventListener('click', selectPeg)
+	purple.addEventListener('click', selectPeg)
 	// ACTIVATE ROW A --- CLEAR ANY PEGS
 	activateRow(rowA)
 	// GENERATE CODE FOR PLAYER TO CRACK === ARRAY OF 4 COLORS
