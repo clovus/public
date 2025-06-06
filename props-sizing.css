@@ -1,0 +1,57 @@
+:root {
+    /* root "font-size" defines the global rem unit */
+    font-size: clamp(9px, 4vmin, 10px);
+
+    --base: 1rem; /* captures rem base between 9 and 10 pixels */
+
+    --down-scale: .8; /* base scaling factor below target */
+    --up-scale: 1.2; /* base scaling factor above target */
+
+    /* use responsive base * scaling factors to generate dynamic sizes */
+    --xs4: calc(var(--xs3) * var(--down-scale));
+    --xs3: calc(var(--xs2) * var(--down-scale));
+    --xs2: calc(var(--xs) * var(--down-scale));
+    --xs: calc(var(--sm) * var(--down-scale));
+    --sm: calc(var(--md) * var(--down-scale));
+    --md: calc(var(--base) * 1.4); /* target size, also body font size */
+    --lg: calc(var(--md) * var(--up-scale));
+    --xl: calc(var(--lg) * var(--up-scale));
+    --xl2: calc(var(--xl) * var(--up-scale));
+    --xl3: calc(var(--xl2) * var(--up-scale));
+    --xl4: calc(var(--xl3) * var(--up-scale));
+    --xl5: calc(var(--xl4) * var(--up-scale));
+
+    --body-font-size: var(--md); /* equal to 1rem or between 12.6 to 14 pixels */
+
+    --spc-xs3: clamp(var(--xs4), .5vmin, var(--xs3));
+    --spc-xs2: clamp(var(--xs3), .6vmin, var(--xs2));
+    --spc-xs: clamp(var(--xs2), .7vmin, var(--xs));
+    --spc-sm: clamp(var(--xs), .8vmin, var(--sm));
+    --spc-md: clamp(var(--sm), 1vmin, var(--md));
+    --spc-lg: clamp(var(--sm), 1.25vmin, var(--lg));
+    --spc-xl: clamp(var(--sm), 1.5vmin, var(--xl));
+    --spc-xl2: clamp(var(--md), 2vmin, var(--xl2));
+    --spc-xl3: clamp(var(--lg), 2.5vmin, var(--xl3));
+    --spc-xl4: clamp(var(--xl), 3vmin, var(--xl4));
+    --spc-xl5: clamp(var(--xl2), 3.5vmin, var(--xl5));
+
+    --h6-size: var(--lg);
+    --h5-size: var(--xl);
+    --h4-size: var(--xl2);
+    --h3-size: var(--xl3);
+    --h2-size: var(--xl4);
+    --h1-size: var(--xl5);
+
+    --footnote-size: var(--sm);
+    --chat-message-size: var(--sm);
+
+    --rnd-xs: var(--spc-xs);
+    --rnd-sm: var(--spc-sm);
+    --rnd-md: var(--spc-md);
+    --rnd-lg: var(--spc-xl);
+    --rnd-xl: var(--spc-xl2);
+
+    --border-size: 1.75px;
+    --nav-bar-height: clamp(80px, 20%, 100px);
+    --main-view-height: calc( 100% - var(--nav-bar-height))
+}
