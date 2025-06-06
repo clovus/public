@@ -1,0 +1,98 @@
+:root {
+    /* HUE */
+	--h-nt: 0;
+	--h-r: 350;
+	--h-o: 21;
+	--h-y: 55;
+	--h-g: 140;
+	--h-bl: 210;
+	--h-p: 268;
+
+    	/* SATURATION */
+	--s-max: 90%;
+	--s-high: 82%;
+	--s-def: 60%;
+	--s-low: 30%;
+	--s-min: 10%;
+
+    	/* LIGHTNESS */
+	--l-max: 85%;
+	--l-high: 75%;
+	--l-def: 50%;
+	--l-low: 24%;
+	--l-min: 10%;
+    
+    /* COLOR DEFINITIONS */
+    --white: hsl(var(--h-nt), 0%, 100%);
+    --black: hsl(var(--h-nt), 0%, 0%);
+    
+    /* gray */
+    --gray-mt: hsl(var(--h-nt), 0%, var(--l-max));
+    --gray-lt: hsl(var(--h-nt), 0%, var(--l-high));
+    --gray: hsl(var(--h-nt), 0%, var(--l-def));
+    --gray-dk: hsl(var(--h-nt), 0%, var(--l-low));
+    --gray-dp: hsl(var(--h-nt), 0%, var(--l-min));
+
+    --gray-20: hsla(var(--h-nt), 0%, var(--l-def), 0.2);
+    
+    /* cool gray */
+    --gray-cool-mt: hsl(var(--h-bl), var(--s-min), var(--l-max));
+    --gray-cool-lt: hsl(var(--h-bl), var(--s-min), var(--l-high));
+    --gray-cool: hsl(var(--h-bl), var(--s-min), var(--l-def));
+    --gray-cool-dk: hsl(var(--h-bl), var(--s-low), var(--l-low));
+    --gray-cool-dp: hsl(var(--h-bl), var(--s-low), var(--l-min));
+    
+    /* warm gray */
+    --gray-warm-mt: hsl(var(--h-o), var(--s-min), var(--l-max));
+    --gray-warm-lt: hsl(var(--h-o), var(--s-min), var(--l-high));
+    --gray-warm: hsl(var(--h-o), var(--s-min), var(--l-def));
+    --gray-warm-dk: hsl(var(--h-o), var(--s-low), var(--l-low));
+    --gray-warm-dp: hsl(var(--h-o), var(--s-low), var(--l-min));
+    
+    /* red */
+    --red-mt: hsl(var(--h-r), var(--s-def), var(--l-max));
+    --red-lt: hsl(var(--h-r), var(--s-def), var(--l-high));
+    --red: hsl(var(--h-r), var(--s-def), var(--l-def));
+    --red-dk: hsl(var(--h-r), var(--s-high), var(--l-low));
+    --red-dp: hsl(var(--h-r), var(--s-max), var(--l-min));
+    
+    /* orange */
+    --orange-mt: hsl(var(--h-o), var(--s-def), var(--l-max));
+    --orange-lt: hsl(var(--h-o), var(--s-def), var(--l-high));
+    --orange: hsl(var(--h-o), var(--s-def), var(--l-def));
+    --orange-dk: hsl(var(--h-o), var(--s-high), var(--l-low));
+    --orange-dp: hsl(var(--h-o), var(--s-max), var(--l-min));
+    
+    /* yellow */
+    --yellow-mt: hsl(var(--h-y), var(--s-def), var(--l-max));
+    --yellow-lt: hsl(var(--h-y), var(--s-def), var(--l-high));
+    --yellow: hsl(var(--h-y), var(--s-def), var(--l-def));
+    --yellow-dk: hsl(var(--h-y), var(--s-high), var(--l-low));
+    --yellow-dp: hsl(var(--h-y), var(--s-max), var(--l-min));
+    
+    /* green */
+    --green-mt: hsl(var(--h-g), var(--s-def), var(--l-max));
+    --green-lt: hsl(var(--h-g), var(--s-def), var(--l-high));
+    --green: hsl(var(--h-g), var(--s-def), var(--l-def));
+    --green-dk: hsl(var(--h-g), var(--s-high), var(--l-low));
+    --green-dp: hsl(var(--h-g), var(--s-max), var(--l-min));
+    
+    /* blue */
+    --blue-mt: hsl(var(--h-bl), var(--s-def), var(--l-max));
+    --blue-lt: hsl(var(--h-bl), var(--s-def), var(--l-high));
+    --blue: hsl(var(--h-bl), var(--s-def), var(--l-def));
+    --blue-dk: hsl(var(--h-bl), var(--s-high), var(--l-low));
+    --blue-dp: hsl(var(--h-bl), var(--s-max), var(--l-min));
+    
+    /* purple */
+    --purple-mt: hsl(var(--h-p), var(--s-def), var(--l-max));
+    --purple-lt: hsl(var(--h-p), var(--s-def), var(--l-high));
+    --purple: hsl(var(--h-p), var(--s-def), var(--l-def));
+    --purple-dk: hsl(var(--h-p), var(--s-high), var(--l-low));
+    --purple-dp: hsl(var(--h-p), var(--s-max), var(--l-min))
+}
+
+
+
+
+
