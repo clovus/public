@@ -1,0 +1,103 @@
+:root { 
+    /* COLOR DEFINITIONS with opacity variations */
+
+    /* gray */
+    --gray-10: hsla(var(--h-nt), 0%, var(--l-def), 0.1);
+    --gray-20: hsla(var(--h-nt), 0%, var(--l-def), 0.2);
+    --gray-30: hsla(var(--h-nt), 0%, var(--l-def), 0.3);
+    --gray-40: hsla(var(--h-nt), 0%, var(--l-def), 0.4);
+    --gray-50: hsla(var(--h-nt), 0%, var(--l-def), 0.5);
+    --gray-60: hsla(var(--h-nt), 0%, var(--l-def), 0.6);
+    --gray-70: hsla(var(--h-nt), 0%, var(--l-def), 0.7);
+    --gray-80: hsla(var(--h-nt), 0%, var(--l-def), 0.8);
+    --gray-90: hsla(var(--h-nt), 0%, var(--l-def), 0.9);
+
+    /* cool gray */
+    --gray-cool-10: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.1);
+    --gray-cool-20: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.2);
+    --gray-cool-30: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.3);
+    --gray-cool-40: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.4);
+    --gray-cool-50: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.5);
+    --gray-cool-60: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.6);
+    --gray-cool-70: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.7);
+    --gray-cool-80: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.8);
+    --gray-cool-90: hsla(var(--h-bl), var(--s-min), var(--l-def), 0.9);
+
+    /* warm gray */
+    --gray-warm-10: hsla(var(--h-o), var(--s-min), var(--l-def), 0.1);
+    --gray-warm-20: hsla(var(--h-o), var(--s-min), var(--l-def), 0.2);
+    --gray-warm-30: hsla(var(--h-o), var(--s-min), var(--l-def), 0.3);
+    --gray-warm-40: hsla(var(--h-o), var(--s-min), var(--l-def), 0.4);
+    --gray-warm-50: hsla(var(--h-o), var(--s-min), var(--l-def), 0.5);
+    --gray-warm-60: hsla(var(--h-o), var(--s-min), var(--l-def), 0.6);
+    --gray-warm-70: hsla(var(--h-o), var(--s-min), var(--l-def), 0.7);
+    --gray-warm-80: hsla(var(--h-o), var(--s-min), var(--l-def), 0.8);
+    --gray-warm-90: hsla(var(--h-o), var(--s-min), var(--l-def), 0.9);
+
+    /* red */
+    --red-10: hsla(var(--h-r), var(--s-def), var(--l-def), 0.1);
+    --red-20: hsla(var(--h-r), var(--s-def), var(--l-def), 0.2);
+    --red-30: hsla(var(--h-r), var(--s-def), var(--l-def), 0.3);
+    --red-40: hsla(var(--h-r), var(--s-def), var(--l-def), 0.4);
+    --red-50: hsla(var(--h-r), var(--s-def), var(--l-def), 0.5);
+    --red-60: hsla(var(--h-r), var(--s-def), var(--l-def), 0.6);
+    --red-70: hsla(var(--h-r), var(--s-def), var(--l-def), 0.7);
+    --red-80: hsla(var(--h-r), var(--s-def), var(--l-def), 0.8);
+    --red-90: hsla(var(--h-r), var(--s-def), var(--l-def), 0.9);
+
+    /* orange */
+    --orange-10: hsla(var(--h-o), var(--s-def), var(--l-def), 0.1);
+    --orange-20: hsla(var(--h-o), var(--s-def), var(--l-def), 0.2);
+    --orange-30: hsla(var(--h-o), var(--s-def), var(--l-def), 0.3);
+    --orange-40: hsla(var(--h-o), var(--s-def), var(--l-def), 0.4);
+    --orange-50: hsla(var(--h-o), var(--s-def), var(--l-def), 0.5);
+    --orange-60: hsla(var(--h-o), var(--s-def), var(--l-def), 0.6);
+    --orange-70: hsla(var(--h-o), var(--s-def), var(--l-def), 0.7);
+    --orange-80: hsla(var(--h-o), var(--s-def), var(--l-def), 0.8);
+    --orange-90: hsla(var(--h-o), var(--s-def), var(--l-def), 0.9);
+
+    /* yellow */
+    --yellow-10: hsla(var(--h-y), var(--s-def), var(--l-def), 0.1);
+    --yellow-20: hsla(var(--h-y), var(--s-def), var(--l-def), 0.2);
+    --yellow-30: hsla(var(--h-y), var(--s-def), var(--l-def), 0.3);
+    --yellow-40: hsla(var(--h-y), var(--s-def), var(--l-def), 0.4);
+    --yellow-50: hsla(var(--h-y), var(--s-def), var(--l-def), 0.5);
+    --yellow-60: hsla(var(--h-y), var(--s-def), var(--l-def), 0.6);
+    --yellow-70: hsla(var(--h-y), var(--s-def), var(--l-def), 0.7);
+    --yellow-80: hsla(var(--h-y), var(--s-def), var(--l-def), 0.8);
+    --yellow-90: hsla(var(--h-y), var(--s-def), var(--l-def), 0.9);
+
+    /* green */
+    --green-10: hsla(var(--h-g), var(--s-def), var(--l-def), 0.1);
+    --green-20: hsla(var(--h-g), var(--s-def), var(--l-def), 0.2);
+    --green-30: hsla(var(--h-g), var(--s-def), var(--l-def), 0.3);
+    --green-40: hsla(var(--h-g), var(--s-def), var(--l-def), 0.4);
+    --green-50: hsla(var(--h-g), var(--s-def), var(--l-def), 0.5);
+    --green-60: hsla(var(--h-g), var(--s-def), var(--l-def), 0.6);
+    --green-70: hsla(var(--h-g), var(--s-def), var(--l-def), 0.7);
+    --green-80: hsla(var(--h-g), var(--s-def), var(--l-def), 0.8);
+    --green-90: hsla(var(--h-g), var(--s-def), var(--l-def), 0.9);
+
+    /* blue */
+    --blue-10: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.1);
+    --blue-20: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.2);
+    --blue-30: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.3);
+    --blue-40: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.4);
+    --blue-50: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.5);
+    --blue-60: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.6);
+    --blue-70: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.7);
+    --blue-80: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.8);
+    --blue-90: hsla(var(--h-bl), var(--s-def), var(--l-def), 0.9);
+
+    /* purple */
+    --purple-10: hsla(var(--h-p), var(--s-def), var(--l-def), 0.1);
+    --purple-20: hsla(var(--h-p), var(--s-def), var(--l-def), 0.2);
+    --purple-30: hsla(var(--h-p), var(--s-def), var(--l-def), 0.3);
+    --purple-40: hsla(var(--h-p), var(--s-def), var(--l-def), 0.4);
+    --purple-50: hsla(var(--h-p), var(--s-def), var(--l-def), 0.5);
+    --purple-60: hsla(var(--h-p), var(--s-def), var(--l-def), 0.6);
+    --purple-70: hsla(var(--h-p), var(--s-def), var(--l-def), 0.7);
+    --purple-80: hsla(var(--h-p), var(--s-def), var(--l-def), 0.8);
+    --purple-90: hsla(var(--h-p), var(--s-def), var(--l-def), 0.9);
+    
+}
